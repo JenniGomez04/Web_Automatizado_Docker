@@ -10,7 +10,7 @@ docker rm mi_web 2>/dev/null || true
 # Iniciar con docker-compose
 docker-compose up -d
 
-echo "✅ Listo! Abre: http://localhost:8080"
-echo "📊 Ver estado: docker ps"
-echo "📋 Ver logs: docker logs mi_web"
-echo "🛑 Detener: docker-compose down"
+echo "Listo! Abre: http://localhost:8080"
+echo "Ver estado: docker ps"
+echo "Ver logs: docker logs mi_web"
+echo "Detener: docker-compose down"
