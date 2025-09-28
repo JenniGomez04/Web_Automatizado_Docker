@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "🚀 Iniciando contenedor web..."
+echo "Iniciando contenedor web..."
 
 # Detener contenedor existente si está corriendo
 docker stop mi_web 2>/dev/null || true
